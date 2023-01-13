@@ -1,4 +1,4 @@
-# SelfeDevelopment
+# Self Development
 About Computer Science and Architecture, Programming Language
 
 # References
