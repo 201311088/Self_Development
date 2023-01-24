@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/Sample3_unittest.dir/Sample3_unittest.cc.o  -o Sample3_unittest  lib/libgtest_main.a lib/libgtest.a -lpthread 

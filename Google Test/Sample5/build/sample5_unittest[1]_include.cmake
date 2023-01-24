@@ -1,5 +1,0 @@
-if(EXISTS "/mnt/c/Users/iakwon/gTest_samples/Sample5/build/sample5_unittest[1]_tests.cmake")
-  include("/mnt/c/Users/iakwon/gTest_samples/Sample5/build/sample5_unittest[1]_tests.cmake")
-else()
-  add_test(sample5_unittest_NOT_BUILT sample5_unittest_NOT_BUILT)
-endif()

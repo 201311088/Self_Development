@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/testing_functions.dir/CFunction_unittest.cc.o CMakeFiles/testing_functions.dir/CFunctions.cpp.o  -o testing_functions  lib/libgtest_main.a lib/libgtest.a -lpthread 

@@ -1,4 +1,0 @@
-QueueTestSmpl3.DefaultConstructor 2 0.00557265
-QueueTestSmpl3.Dequeue 2 0.00614265
-QueueTestSmpl3.Map 2 0.00617816
----

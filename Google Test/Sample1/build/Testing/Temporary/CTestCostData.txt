@@ -1,7 +1,0 @@
-FactorialTest.Negative 1 0.00906161
-FactorialTest.Zero 1 0.00950454
-FactorialTest.Positive 1 0.012555
-IsPrimeTest.Negative 1 0.0127774
-IsPrimeTest.Trivial 1 0.0124331
-IsPrimeTest.Positive 1 0.0105924
----

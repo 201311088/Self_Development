@@ -1,5 +1,0 @@
-IntegerFunctionTest.Factorial 1 0.0118792
-IntegerFunctionTest.IsPrime 1 0.0110727
-QueueTest.DefaultConstructor 1 0.0115539
-QueueTest.Dequeue 1 0.0125452
----
