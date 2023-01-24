@@ -1,0 +1,7 @@
+add_test( QueueTestSmpl3.DefaultConstructor /mnt/c/Users/iakwon/gTest_samples/Sample3/build/Sample3_unittest [==[--gtest_filter=QueueTestSmpl3.DefaultConstructor]==] --gtest_also_run_disabled_tests)
+set_tests_properties( QueueTestSmpl3.DefaultConstructor PROPERTIES WORKING_DIRECTORY /mnt/c/Users/iakwon/gTest_samples/Sample3/build)
+add_test( QueueTestSmpl3.Dequeue /mnt/c/Users/iakwon/gTest_samples/Sample3/build/Sample3_unittest [==[--gtest_filter=QueueTestSmpl3.Dequeue]==] --gtest_also_run_disabled_tests)
+set_tests_properties( QueueTestSmpl3.Dequeue PROPERTIES WORKING_DIRECTORY /mnt/c/Users/iakwon/gTest_samples/Sample3/build)
+add_test( QueueTestSmpl3.Map /mnt/c/Users/iakwon/gTest_samples/Sample3/build/Sample3_unittest [==[--gtest_filter=QueueTestSmpl3.Map]==] --gtest_also_run_disabled_tests)
+set_tests_properties( QueueTestSmpl3.Map PROPERTIES WORKING_DIRECTORY /mnt/c/Users/iakwon/gTest_samples/Sample3/build)
+set( Sample3_unittest_TESTS QueueTestSmpl3.DefaultConstructor QueueTestSmpl3.Dequeue QueueTestSmpl3.Map)

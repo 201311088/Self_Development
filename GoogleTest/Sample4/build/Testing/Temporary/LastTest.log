@@ -1,0 +1,204 @@
+Start testing: Jan 16 13:26 KST
+----------------------------------------------------------
+1/6 Testing: CounterTest.Try1
+1/6 Test: CounterTest.Try1
+Command: "/mnt/c/Users/iakwon/gTest_samples/Sample4/build/sample4_unittest" "--gtest_filter=CounterTest.Try1" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/iakwon/gTest_samples/Sample4/build
+"CounterTest.Try1" start time: Jan 16 13:26 KST
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/iakwon/gTest_samples/Sample4/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = CounterTest.Try1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CounterTest
+[ RUN      ] CounterTest.Try1
+[       OK ] CounterTest.Try1 (0 ms)
+[----------] 1 test from CounterTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"CounterTest.Try1" end time: Jan 16 13:26 KST
+"CounterTest.Try1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/6 Testing: CounterTest.Try2
+2/6 Test: CounterTest.Try2
+Command: "/mnt/c/Users/iakwon/gTest_samples/Sample4/build/sample4_unittest" "--gtest_filter=CounterTest.Try2" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/iakwon/gTest_samples/Sample4/build
+"CounterTest.Try2" start time: Jan 16 13:26 KST
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/iakwon/gTest_samples/Sample4/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = CounterTest.Try2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CounterTest
+[ RUN      ] CounterTest.Try2
+/mnt/c/Users/iakwon/gTest_samples/Sample4/sample4_unittest.cc:14: Failure
+Expected equality of these values:
+  3
+  IndependantInstance.Increment()
+    Which is: 0
+Say when it's failed
+[  FAILED  ] CounterTest.Try2 (0 ms)
+[----------] 1 test from CounterTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] CounterTest.Try2
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"CounterTest.Try2" end time: Jan 16 13:26 KST
+"CounterTest.Try2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/6 Testing: CounterTest.Try3
+3/6 Test: CounterTest.Try3
+Command: "/mnt/c/Users/iakwon/gTest_samples/Sample4/build/sample4_unittest" "--gtest_filter=CounterTest.Try3" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/iakwon/gTest_samples/Sample4/build
+"CounterTest.Try3" start time: Jan 16 13:26 KST
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/iakwon/gTest_samples/Sample4/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = CounterTest.Try3
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CounterTest
+[ RUN      ] CounterTest.Try3
+/mnt/c/Users/iakwon/gTest_samples/Sample4/sample4_unittest.cc:18: Failure
+Expected equality of these values:
+  4
+  IndependantInstance.Increment()
+    Which is: 0
+Say when it's failed
+[  FAILED  ] CounterTest.Try3 (0 ms)
+[----------] 1 test from CounterTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] CounterTest.Try3
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"CounterTest.Try3" end time: Jan 16 13:26 KST
+"CounterTest.Try3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/6 Testing: CounterTest.Try4
+4/6 Test: CounterTest.Try4
+Command: "/mnt/c/Users/iakwon/gTest_samples/Sample4/build/sample4_unittest" "--gtest_filter=CounterTest.Try4" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/iakwon/gTest_samples/Sample4/build
+"CounterTest.Try4" start time: Jan 16 13:26 KST
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/iakwon/gTest_samples/Sample4/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = CounterTest.Try4
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CounterTest
+[ RUN      ] CounterTest.Try4
+/mnt/c/Users/iakwon/gTest_samples/Sample4/sample4_unittest.cc:22: Failure
+Expected equality of these values:
+  5
+  IndependantInstance.Increment()
+    Which is: 0
+Say when it's failed
+[  FAILED  ] CounterTest.Try4 (0 ms)
+[----------] 1 test from CounterTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] CounterTest.Try4
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"CounterTest.Try4" end time: Jan 16 13:26 KST
+"CounterTest.Try4" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/6 Testing: CounterTest.Try5
+5/6 Test: CounterTest.Try5
+Command: "/mnt/c/Users/iakwon/gTest_samples/Sample4/build/sample4_unittest" "--gtest_filter=CounterTest.Try5" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/iakwon/gTest_samples/Sample4/build
+"CounterTest.Try5" start time: Jan 16 13:26 KST
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/iakwon/gTest_samples/Sample4/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = CounterTest.Try5
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CounterTest
+[ RUN      ] CounterTest.Try5
+[       OK ] CounterTest.Try5 (0 ms)
+[----------] 1 test from CounterTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"CounterTest.Try5" end time: Jan 16 13:26 KST
+"CounterTest.Try5" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/6 Testing: ConstantFailTest.Test1
+6/6 Test: ConstantFailTest.Test1
+Command: "/mnt/c/Users/iakwon/gTest_samples/Sample4/build/sample4_unittest" "--gtest_filter=ConstantFailTest.Test1" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/iakwon/gTest_samples/Sample4/build
+"ConstantFailTest.Test1" start time: Jan 16 13:26 KST
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/iakwon/gTest_samples/Sample4/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ConstantFailTest.Test1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ConstantFailTest
+[ RUN      ] ConstantFailTest.Test1
+/mnt/c/Users/iakwon/gTest_samples/Sample4/sample4_unittest.cc:31: Failure
+Value of: false
+  Actual: false
+Expected: true
+Say when it's failed
+[  FAILED  ] ConstantFailTest.Test1 (0 ms)
+[----------] 1 test from ConstantFailTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] ConstantFailTest.Test1
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"ConstantFailTest.Test1" end time: Jan 16 13:26 KST
+"ConstantFailTest.Test1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jan 16 13:26 KST

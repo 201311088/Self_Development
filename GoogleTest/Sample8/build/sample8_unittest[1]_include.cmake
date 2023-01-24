@@ -1,0 +1,5 @@
+if(EXISTS "/mnt/c/Users/iakwon/gTest_samples/Sample8/build/sample8_unittest[1]_tests.cmake")
+  include("/mnt/c/Users/iakwon/gTest_samples/Sample8/build/sample8_unittest[1]_tests.cmake")
+else()
+  add_test(sample8_unittest_NOT_BUILT sample8_unittest_NOT_BUILT)
+endif()

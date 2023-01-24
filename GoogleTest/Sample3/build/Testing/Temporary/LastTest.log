@@ -1,0 +1,93 @@
+Start testing: Jan 16 11:26 KST
+----------------------------------------------------------
+1/3 Testing: QueueTestSmpl3.DefaultConstructor
+1/3 Test: QueueTestSmpl3.DefaultConstructor
+Command: "/mnt/c/Users/iakwon/gTest_samples/Sample3/build/Sample3_unittest" "--gtest_filter=QueueTestSmpl3.DefaultConstructor" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/iakwon/gTest_samples/Sample3/build
+"QueueTestSmpl3.DefaultConstructor" start time: Jan 16 11:26 KST
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/iakwon/gTest_samples/Sample3/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = QueueTestSmpl3.DefaultConstructor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from QueueTestSmpl3
+[ RUN      ] QueueTestSmpl3.DefaultConstructor
+
+
+ <<SetUP() CALLED>>
+[       OK ] QueueTestSmpl3.DefaultConstructor (0 ms)
+[----------] 1 test from QueueTestSmpl3 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"QueueTestSmpl3.DefaultConstructor" end time: Jan 16 11:26 KST
+"QueueTestSmpl3.DefaultConstructor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/3 Testing: QueueTestSmpl3.Dequeue
+2/3 Test: QueueTestSmpl3.Dequeue
+Command: "/mnt/c/Users/iakwon/gTest_samples/Sample3/build/Sample3_unittest" "--gtest_filter=QueueTestSmpl3.Dequeue" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/iakwon/gTest_samples/Sample3/build
+"QueueTestSmpl3.Dequeue" start time: Jan 16 11:26 KST
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/iakwon/gTest_samples/Sample3/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = QueueTestSmpl3.Dequeue
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from QueueTestSmpl3
+[ RUN      ] QueueTestSmpl3.Dequeue
+
+
+ <<SetUP() CALLED>>
+[       OK ] QueueTestSmpl3.Dequeue (0 ms)
+[----------] 1 test from QueueTestSmpl3 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"QueueTestSmpl3.Dequeue" end time: Jan 16 11:26 KST
+"QueueTestSmpl3.Dequeue" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/3 Testing: QueueTestSmpl3.Map
+3/3 Test: QueueTestSmpl3.Map
+Command: "/mnt/c/Users/iakwon/gTest_samples/Sample3/build/Sample3_unittest" "--gtest_filter=QueueTestSmpl3.Map" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/iakwon/gTest_samples/Sample3/build
+"QueueTestSmpl3.Map" start time: Jan 16 11:26 KST
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/iakwon/gTest_samples/Sample3/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = QueueTestSmpl3.Map
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from QueueTestSmpl3
+[ RUN      ] QueueTestSmpl3.Map
+
+
+ <<SetUP() CALLED>>
+[       OK ] QueueTestSmpl3.Map (0 ms)
+[----------] 1 test from QueueTestSmpl3 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"QueueTestSmpl3.Map" end time: Jan 16 11:26 KST
+"QueueTestSmpl3.Map" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jan 16 11:26 KST

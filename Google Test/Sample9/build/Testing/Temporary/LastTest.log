@@ -1,0 +1,94 @@
+Start testing: Jan 17 11:24 KST
+----------------------------------------------------------
+1/3 Testing: CustomOutputTest.PrintsMessage
+1/3 Test: CustomOutputTest.PrintsMessage
+Command: "/mnt/c/Users/iakwon/gTest_samples/Sample9/build/sample9_unittest" "--gtest_filter=CustomOutputTest.PrintsMessage" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/iakwon/gTest_samples/Sample9/build
+"CustomOutputTest.PrintsMessage" start time: Jan 17 11:24 KST
+Output:
+----------------------------------------------------------
+Run this program with --terse_output to change the way it prints its output.
+Note: Google Test filter = CustomOutputTest.PrintsMessage
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CustomOutputTest
+[ RUN      ] CustomOutputTest.PrintsMessage
+Printing something from the test body...
+[       OK ] CustomOutputTest.PrintsMessage (0 ms)
+[----------] 1 test from CustomOutputTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"CustomOutputTest.PrintsMessage" end time: Jan 17 11:24 KST
+"CustomOutputTest.PrintsMessage" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/3 Testing: CustomOutputTest.Succeeds
+2/3 Test: CustomOutputTest.Succeeds
+Command: "/mnt/c/Users/iakwon/gTest_samples/Sample9/build/sample9_unittest" "--gtest_filter=CustomOutputTest.Succeeds" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/iakwon/gTest_samples/Sample9/build
+"CustomOutputTest.Succeeds" start time: Jan 17 11:24 KST
+Output:
+----------------------------------------------------------
+Run this program with --terse_output to change the way it prints its output.
+Note: Google Test filter = CustomOutputTest.Succeeds
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CustomOutputTest
+[ RUN      ] CustomOutputTest.Succeeds
+[       OK ] CustomOutputTest.Succeeds (0 ms)
+[----------] 1 test from CustomOutputTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"CustomOutputTest.Succeeds" end time: Jan 17 11:24 KST
+"CustomOutputTest.Succeeds" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/3 Testing: CustomOutputTest.Fails
+3/3 Test: CustomOutputTest.Fails
+Command: "/mnt/c/Users/iakwon/gTest_samples/Sample9/build/sample9_unittest" "--gtest_filter=CustomOutputTest.Fails" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/iakwon/gTest_samples/Sample9/build
+"CustomOutputTest.Fails" start time: Jan 17 11:24 KST
+Output:
+----------------------------------------------------------
+Run this program with --terse_output to change the way it prints its output.
+Note: Google Test filter = CustomOutputTest.Fails
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CustomOutputTest
+[ RUN      ] CustomOutputTest.Fails
+/mnt/c/Users/iakwon/gTest_samples/Sample9/sample9_unittest.cc:63: Failure
+Expected equality of these values:
+  1
+  2
+This test fails in order to demonstrate alternative failure messages
+[  FAILED  ] CustomOutputTest.Fails (0 ms)
+[----------] 1 test from CustomOutputTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] CustomOutputTest.Fails
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"CustomOutputTest.Fails" end time: Jan 17 11:24 KST
+"CustomOutputTest.Fails" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jan 17 11:24 KST

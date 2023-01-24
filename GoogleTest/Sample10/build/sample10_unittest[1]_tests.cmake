@@ -1,0 +1,5 @@
+add_test( ListenersTest.DoesNotLeak /mnt/c/Users/iakwon/gTest_samples/Sample10/build/sample10_unittest [==[--gtest_filter=ListenersTest.DoesNotLeak]==] --gtest_also_run_disabled_tests)
+set_tests_properties( ListenersTest.DoesNotLeak PROPERTIES WORKING_DIRECTORY /mnt/c/Users/iakwon/gTest_samples/Sample10/build)
+add_test( ListenersTest.LeaksWater /mnt/c/Users/iakwon/gTest_samples/Sample10/build/sample10_unittest [==[--gtest_filter=ListenersTest.LeaksWater]==] --gtest_also_run_disabled_tests)
+set_tests_properties( ListenersTest.LeaksWater PROPERTIES WORKING_DIRECTORY /mnt/c/Users/iakwon/gTest_samples/Sample10/build)
+set( sample10_unittest_TESTS ListenersTest.DoesNotLeak ListenersTest.LeaksWater)

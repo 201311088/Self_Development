@@ -1,0 +1,4 @@
+CustomOutputTest.PrintsMessage 1 0.0120174
+CustomOutputTest.Succeeds 1 0.0103444
+CustomOutputTest.Fails 1 0.0103625
+---

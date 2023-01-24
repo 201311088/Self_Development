@@ -1,0 +1,6 @@
+sample2_unittest_NOT_BUILT 0 0
+MyString.DefaultConstructor 1 0.0111929
+MyString.ConstructorFromCString 1 0.011114
+MyString.CopyConstructor 1 0.0108004
+MyString.Set 1 0.00900951
+---

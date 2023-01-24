@@ -1,0 +1,7 @@
+add_test( CustomOutputTest.PrintsMessage /mnt/c/Users/iakwon/gTest_samples/Sample9/build/sample9_unittest [==[--gtest_filter=CustomOutputTest.PrintsMessage]==] --gtest_also_run_disabled_tests)
+set_tests_properties( CustomOutputTest.PrintsMessage PROPERTIES WORKING_DIRECTORY /mnt/c/Users/iakwon/gTest_samples/Sample9/build)
+add_test( CustomOutputTest.Succeeds /mnt/c/Users/iakwon/gTest_samples/Sample9/build/sample9_unittest [==[--gtest_filter=CustomOutputTest.Succeeds]==] --gtest_also_run_disabled_tests)
+set_tests_properties( CustomOutputTest.Succeeds PROPERTIES WORKING_DIRECTORY /mnt/c/Users/iakwon/gTest_samples/Sample9/build)
+add_test( CustomOutputTest.Fails /mnt/c/Users/iakwon/gTest_samples/Sample9/build/sample9_unittest [==[--gtest_filter=CustomOutputTest.Fails]==] --gtest_also_run_disabled_tests)
+set_tests_properties( CustomOutputTest.Fails PROPERTIES WORKING_DIRECTORY /mnt/c/Users/iakwon/gTest_samples/Sample9/build)
+set( sample9_unittest_TESTS CustomOutputTest.PrintsMessage CustomOutputTest.Succeeds CustomOutputTest.Fails)

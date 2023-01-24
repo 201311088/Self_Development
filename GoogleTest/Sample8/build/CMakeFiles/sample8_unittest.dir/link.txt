@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/sample8_unittest.dir/sample8_unittest.cc.o  -o sample8_unittest  lib/libgtest_main.a lib/libgtest.a -lpthread 

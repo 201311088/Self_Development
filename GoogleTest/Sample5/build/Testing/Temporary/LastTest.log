@@ -1,0 +1,111 @@
+Start testing: Jan 16 13:51 KST
+----------------------------------------------------------
+1/4 Testing: IntegerFunctionTest.Factorial
+1/4 Test: IntegerFunctionTest.Factorial
+Command: "/mnt/c/Users/iakwon/gTest_samples/Sample5/build/sample5_unittest" "--gtest_filter=IntegerFunctionTest.Factorial" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/iakwon/gTest_samples/Sample5/build
+"IntegerFunctionTest.Factorial" start time: Jan 16 13:51 KST
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/iakwon/gTest_samples/Sample5/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = IntegerFunctionTest.Factorial
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from IntegerFunctionTest
+[ RUN      ] IntegerFunctionTest.Factorial
+[       OK ] IntegerFunctionTest.Factorial (0 ms)
+[----------] 1 test from IntegerFunctionTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"IntegerFunctionTest.Factorial" end time: Jan 16 13:51 KST
+"IntegerFunctionTest.Factorial" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/4 Testing: IntegerFunctionTest.IsPrime
+2/4 Test: IntegerFunctionTest.IsPrime
+Command: "/mnt/c/Users/iakwon/gTest_samples/Sample5/build/sample5_unittest" "--gtest_filter=IntegerFunctionTest.IsPrime" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/iakwon/gTest_samples/Sample5/build
+"IntegerFunctionTest.IsPrime" start time: Jan 16 13:51 KST
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/iakwon/gTest_samples/Sample5/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = IntegerFunctionTest.IsPrime
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from IntegerFunctionTest
+[ RUN      ] IntegerFunctionTest.IsPrime
+[       OK ] IntegerFunctionTest.IsPrime (0 ms)
+[----------] 1 test from IntegerFunctionTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"IntegerFunctionTest.IsPrime" end time: Jan 16 13:51 KST
+"IntegerFunctionTest.IsPrime" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/4 Testing: QueueTest.DefaultConstructor
+3/4 Test: QueueTest.DefaultConstructor
+Command: "/mnt/c/Users/iakwon/gTest_samples/Sample5/build/sample5_unittest" "--gtest_filter=QueueTest.DefaultConstructor" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/iakwon/gTest_samples/Sample5/build
+"QueueTest.DefaultConstructor" start time: Jan 16 13:51 KST
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/iakwon/gTest_samples/Sample5/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = QueueTest.DefaultConstructor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from QueueTest
+[ RUN      ] QueueTest.DefaultConstructor
+[       OK ] QueueTest.DefaultConstructor (0 ms)
+[----------] 1 test from QueueTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"QueueTest.DefaultConstructor" end time: Jan 16 13:51 KST
+"QueueTest.DefaultConstructor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/4 Testing: QueueTest.Dequeue
+4/4 Test: QueueTest.Dequeue
+Command: "/mnt/c/Users/iakwon/gTest_samples/Sample5/build/sample5_unittest" "--gtest_filter=QueueTest.Dequeue" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/iakwon/gTest_samples/Sample5/build
+"QueueTest.Dequeue" start time: Jan 16 13:51 KST
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/iakwon/gTest_samples/Sample5/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = QueueTest.Dequeue
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from QueueTest
+[ RUN      ] QueueTest.Dequeue
+[       OK ] QueueTest.Dequeue (0 ms)
+[----------] 1 test from QueueTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"QueueTest.Dequeue" end time: Jan 16 13:51 KST
+"QueueTest.Dequeue" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jan 16 13:51 KST
