@@ -13,3 +13,10 @@ Push from Local
 	+ commit with a message option
 + git push // git push --set-upstream origin master
 	+ finally pushes changes with commit. // if Upstream has not been activated yet
+
+OverWrite Push
+--------
++ git pull Overwrite
+	+ git fetch --all
+	+ git reset --hard origin/<branch>
+
