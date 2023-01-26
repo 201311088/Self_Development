@@ -1,7 +1,7 @@
 # Make file names absolute:
 #
-get_filename_component(filename "/mnt/c/Users/iakwon/Desktop/gTEST_Drill/build/_deps/googletest-subbuild/googletest-populate-prefix/src/03597a01ee50ed33e9dfd640b249b4be3799d395.zip" ABSOLUTE)
-get_filename_component(directory "/mnt/c/Users/iakwon/Desktop/gTEST_Drill/build/_deps/googletest-src" ABSOLUTE)
+get_filename_component(filename "/mnt/c/Users/iakwon/Desktop/InProgress/Git_SelfDevelopment/GoogleTest/gTest First apply/build/_deps/googletest-subbuild/googletest-populate-prefix/src/03597a01ee50ed33e9dfd640b249b4be3799d395.zip" ABSOLUTE)
+get_filename_component(directory "/mnt/c/Users/iakwon/Desktop/InProgress/Git_SelfDevelopment/GoogleTest/gTest First apply/build/_deps/googletest-src" ABSOLUTE)
 
 message(STATUS "extracting...
      src='${filename}'

@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/mnt/c/Users/iakwon/Desktop/gTEST_Drill/build/_deps/googletest-src/googletest/src/gtest_main.cc
+/mnt/c/Users/iakwon/Desktop/InProgress/Git_SelfDevelopment/GoogleTest/gTest First apply/build/_deps/googletest-src/googletest/src/gtest_main.cc
 cstdio
 -
 gtest/gtest.h
-/mnt/c/Users/iakwon/Desktop/gTEST_Drill/build/_deps/googletest-src/googletest/src/gtest/gtest.h
+/mnt/c/Users/iakwon/Desktop/InProgress/Git_SelfDevelopment/GoogleTest/gTest First apply/build/_deps/googletest-src/googletest/src/gtest/gtest.h
 
 _deps/googletest-src/googletest/include/gtest/gtest-assertion-result.h
 memory

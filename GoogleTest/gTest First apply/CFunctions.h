@@ -1,3 +1,4 @@
+#define STATIC_MAX (100)
 class CFunctions {
 public:
    	CFunctions();
@@ -12,6 +13,6 @@ public:
 	int getIndex();
 
 private:
-	int m_nArr[100];
+	int m_nArr[STATIC_MAX];
 	int m_nIndex_pointer;
 };

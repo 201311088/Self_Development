@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/mnt/c/Users/iakwon/Desktop/gTEST_Drill/build/_deps/googletest-src/googlemock/src/gmock_main.cc
+/mnt/c/Users/iakwon/Desktop/InProgress/Git_SelfDevelopment/GoogleTest/gTest First apply/build/_deps/googletest-src/googlemock/src/gmock_main.cc
 iostream
 -
 gmock/gmock.h
-/mnt/c/Users/iakwon/Desktop/gTEST_Drill/build/_deps/googletest-src/googlemock/src/gmock/gmock.h
+/mnt/c/Users/iakwon/Desktop/InProgress/Git_SelfDevelopment/GoogleTest/gTest First apply/build/_deps/googletest-src/googlemock/src/gmock/gmock.h
 gtest/gtest.h
-/mnt/c/Users/iakwon/Desktop/gTEST_Drill/build/_deps/googletest-src/googlemock/src/gtest/gtest.h
+/mnt/c/Users/iakwon/Desktop/InProgress/Git_SelfDevelopment/GoogleTest/gTest First apply/build/_deps/googletest-src/googlemock/src/gtest/gtest.h
 tchar.h
 -
 

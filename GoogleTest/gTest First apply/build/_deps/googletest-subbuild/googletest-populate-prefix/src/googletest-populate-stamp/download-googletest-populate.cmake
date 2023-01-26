@@ -22,14 +22,14 @@ function(check_file_hash has_hash hash_is_good)
   set("${has_hash}" TRUE PARENT_SCOPE)
 
   message(STATUS "verifying file...
-       file='/mnt/c/Users/iakwon/Desktop/gTEST_Drill/build/_deps/googletest-subbuild/googletest-populate-prefix/src/03597a01ee50ed33e9dfd640b249b4be3799d395.zip'")
+       file='/mnt/c/Users/iakwon/Desktop/InProgress/Git_SelfDevelopment/GoogleTest/gTest First apply/build/_deps/googletest-subbuild/googletest-populate-prefix/src/03597a01ee50ed33e9dfd640b249b4be3799d395.zip'")
 
-  file("" "/mnt/c/Users/iakwon/Desktop/gTEST_Drill/build/_deps/googletest-subbuild/googletest-populate-prefix/src/03597a01ee50ed33e9dfd640b249b4be3799d395.zip" actual_value)
+  file("" "/mnt/c/Users/iakwon/Desktop/InProgress/Git_SelfDevelopment/GoogleTest/gTest First apply/build/_deps/googletest-subbuild/googletest-populate-prefix/src/03597a01ee50ed33e9dfd640b249b4be3799d395.zip" actual_value)
 
   if(NOT "${actual_value}" STREQUAL "")
     set("${hash_is_good}" FALSE PARENT_SCOPE)
     message(STATUS " hash of
-    /mnt/c/Users/iakwon/Desktop/gTEST_Drill/build/_deps/googletest-subbuild/googletest-populate-prefix/src/03597a01ee50ed33e9dfd640b249b4be3799d395.zip
+    /mnt/c/Users/iakwon/Desktop/InProgress/Git_SelfDevelopment/GoogleTest/gTest First apply/build/_deps/googletest-subbuild/googletest-populate-prefix/src/03597a01ee50ed33e9dfd640b249b4be3799d395.zip
   does not match expected value
     expected: ''
       actual: '${actual_value}'")
@@ -71,7 +71,7 @@ function(sleep_before_download attempt)
   execute_process(COMMAND "${CMAKE_COMMAND}" -E sleep "${sleep_seconds}")
 endfunction()
 
-if("/mnt/c/Users/iakwon/Desktop/gTEST_Drill/build/_deps/googletest-subbuild/googletest-populate-prefix/src/03597a01ee50ed33e9dfd640b249b4be3799d395.zip" STREQUAL "")
+if("/mnt/c/Users/iakwon/Desktop/InProgress/Git_SelfDevelopment/GoogleTest/gTest First apply/build/_deps/googletest-subbuild/googletest-populate-prefix/src/03597a01ee50ed33e9dfd640b249b4be3799d395.zip" STREQUAL "")
   message(FATAL_ERROR "LOCAL can't be empty")
 endif()
 
@@ -79,32 +79,32 @@ if("https://github.com/google/googletest/archive/03597a01ee50ed33e9dfd640b249b4b
   message(FATAL_ERROR "REMOTE can't be empty")
 endif()
 
-if(EXISTS "/mnt/c/Users/iakwon/Desktop/gTEST_Drill/build/_deps/googletest-subbuild/googletest-populate-prefix/src/03597a01ee50ed33e9dfd640b249b4be3799d395.zip")
+if(EXISTS "/mnt/c/Users/iakwon/Desktop/InProgress/Git_SelfDevelopment/GoogleTest/gTest First apply/build/_deps/googletest-subbuild/googletest-populate-prefix/src/03597a01ee50ed33e9dfd640b249b4be3799d395.zip")
   check_file_hash(has_hash hash_is_good)
   if(has_hash)
     if(hash_is_good)
       message(STATUS "File already exists and hash match (skip download):
-  file='/mnt/c/Users/iakwon/Desktop/gTEST_Drill/build/_deps/googletest-subbuild/googletest-populate-prefix/src/03597a01ee50ed33e9dfd640b249b4be3799d395.zip'
+  file='/mnt/c/Users/iakwon/Desktop/InProgress/Git_SelfDevelopment/GoogleTest/gTest First apply/build/_deps/googletest-subbuild/googletest-populate-prefix/src/03597a01ee50ed33e9dfd640b249b4be3799d395.zip'
   =''"
       )
       return()
     else()
       message(STATUS "File already exists but hash mismatch. Removing...")
-      file(REMOVE "/mnt/c/Users/iakwon/Desktop/gTEST_Drill/build/_deps/googletest-subbuild/googletest-populate-prefix/src/03597a01ee50ed33e9dfd640b249b4be3799d395.zip")
+      file(REMOVE "/mnt/c/Users/iakwon/Desktop/InProgress/Git_SelfDevelopment/GoogleTest/gTest First apply/build/_deps/googletest-subbuild/googletest-populate-prefix/src/03597a01ee50ed33e9dfd640b249b4be3799d395.zip")
     endif()
   else()
     message(STATUS "File already exists but no hash specified (use URL_HASH):
-  file='/mnt/c/Users/iakwon/Desktop/gTEST_Drill/build/_deps/googletest-subbuild/googletest-populate-prefix/src/03597a01ee50ed33e9dfd640b249b4be3799d395.zip'
+  file='/mnt/c/Users/iakwon/Desktop/InProgress/Git_SelfDevelopment/GoogleTest/gTest First apply/build/_deps/googletest-subbuild/googletest-populate-prefix/src/03597a01ee50ed33e9dfd640b249b4be3799d395.zip'
 Old file will be removed and new file downloaded from URL."
     )
-    file(REMOVE "/mnt/c/Users/iakwon/Desktop/gTEST_Drill/build/_deps/googletest-subbuild/googletest-populate-prefix/src/03597a01ee50ed33e9dfd640b249b4be3799d395.zip")
+    file(REMOVE "/mnt/c/Users/iakwon/Desktop/InProgress/Git_SelfDevelopment/GoogleTest/gTest First apply/build/_deps/googletest-subbuild/googletest-populate-prefix/src/03597a01ee50ed33e9dfd640b249b4be3799d395.zip")
   endif()
 endif()
 
 set(retry_number 5)
 
 message(STATUS "Downloading...
-   dst='/mnt/c/Users/iakwon/Desktop/gTEST_Drill/build/_deps/googletest-subbuild/googletest-populate-prefix/src/03597a01ee50ed33e9dfd640b249b4be3799d395.zip'
+   dst='/mnt/c/Users/iakwon/Desktop/InProgress/Git_SelfDevelopment/GoogleTest/gTest First apply/build/_deps/googletest-subbuild/googletest-populate-prefix/src/03597a01ee50ed33e9dfd640b249b4be3799d395.zip'
    timeout='none'"
 )
 
@@ -121,7 +121,7 @@ foreach(i RANGE ${retry_number})
 
     file(
         DOWNLOAD
-        "${url}" "/mnt/c/Users/iakwon/Desktop/gTEST_Drill/build/_deps/googletest-subbuild/googletest-populate-prefix/src/03597a01ee50ed33e9dfd640b249b4be3799d395.zip"
+        "${url}" "/mnt/c/Users/iakwon/Desktop/InProgress/Git_SelfDevelopment/GoogleTest/gTest First apply/build/_deps/googletest-subbuild/googletest-populate-prefix/src/03597a01ee50ed33e9dfd640b249b4be3799d395.zip"
         SHOW_PROGRESS
         # no TIMEOUT
         STATUS status
@@ -137,7 +137,7 @@ foreach(i RANGE ${retry_number})
       check_file_hash(has_hash hash_is_good)
       if(has_hash AND NOT hash_is_good)
         message(STATUS "Hash mismatch, removing...")
-        file(REMOVE "/mnt/c/Users/iakwon/Desktop/gTEST_Drill/build/_deps/googletest-subbuild/googletest-populate-prefix/src/03597a01ee50ed33e9dfd640b249b4be3799d395.zip")
+        file(REMOVE "/mnt/c/Users/iakwon/Desktop/InProgress/Git_SelfDevelopment/GoogleTest/gTest First apply/build/_deps/googletest-subbuild/googletest-populate-prefix/src/03597a01ee50ed33e9dfd640b249b4be3799d395.zip")
       else()
         message(STATUS "Downloading... done")
         return()

@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/c/Users/iakwon/Desktop/gTEST_Drill/build/_deps/googletest-subbuild
+# Install script for directory: /mnt/c/Users/iakwon/Desktop/InProgress/Git_SelfDevelopment/GoogleTest/gTest First apply/build/_deps/googletest-subbuild
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/mnt/c/Users/iakwon/Desktop/gTEST_Drill/build/_deps/googletest-subbuild/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/mnt/c/Users/iakwon/Desktop/InProgress/Git_SelfDevelopment/GoogleTest/gTest First apply/build/_deps/googletest-subbuild/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

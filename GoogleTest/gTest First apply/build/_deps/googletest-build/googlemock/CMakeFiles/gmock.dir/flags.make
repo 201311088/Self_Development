@@ -6,5 +6,5 @@ CXX_FLAGS =   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fex
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/mnt/c/Users/iakwon/Desktop/gTEST_Drill/build/_deps/googletest-src/googlemock/include -I/mnt/c/Users/iakwon/Desktop/gTEST_Drill/build/_deps/googletest-src/googlemock -isystem /mnt/c/Users/iakwon/Desktop/gTEST_Drill/build/_deps/googletest-src/googletest/include -isystem /mnt/c/Users/iakwon/Desktop/gTEST_Drill/build/_deps/googletest-src/googletest 
+CXX_INCLUDES = -I"/mnt/c/Users/iakwon/Desktop/InProgress/Git_SelfDevelopment/GoogleTest/gTest First apply/build/_deps/googletest-src/googlemock/include" -I"/mnt/c/Users/iakwon/Desktop/InProgress/Git_SelfDevelopment/GoogleTest/gTest First apply/build/_deps/googletest-src/googlemock" -isystem "/mnt/c/Users/iakwon/Desktop/InProgress/Git_SelfDevelopment/GoogleTest/gTest First apply/build/_deps/googletest-src/googletest/include" -isystem "/mnt/c/Users/iakwon/Desktop/InProgress/Git_SelfDevelopment/GoogleTest/gTest First apply/build/_deps/googletest-src/googletest" 
 

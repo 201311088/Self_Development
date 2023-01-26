@@ -16,8 +16,13 @@ CFunctions::CFunctions(int num_of_index) {
 }
 
 int CFunctions::Insert(int value) {
+    if( STATIC_MAX <= m_nIndex_pointer )
+    {
+        //m_nArr[m_nIndex_pointer] = 666;  //! This line puts "value" into "m_nIndex_pointer".
+        return m_nIndex_pointer; 
+    }
+
     m_nArr[m_nIndex_pointer] = value;    
-    
     return ++m_nIndex_pointer;
 }
 

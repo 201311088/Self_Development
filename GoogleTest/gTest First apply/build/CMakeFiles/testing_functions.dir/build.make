@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/iakwon/Desktop/gTEST_Drill
+CMAKE_SOURCE_DIR = "/mnt/c/Users/iakwon/Desktop/InProgress/Git_SelfDevelopment/GoogleTest/gTest First apply"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/iakwon/Desktop/gTEST_Drill/build
+CMAKE_BINARY_DIR = "/mnt/c/Users/iakwon/Desktop/InProgress/Git_SelfDevelopment/GoogleTest/gTest First apply/build"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/testing_functions.dir/depend.make
@@ -59,29 +59,29 @@ include CMakeFiles/testing_functions.dir/flags.make
 
 CMakeFiles/testing_functions.dir/CFunction_unittest.cc.o: CMakeFiles/testing_functions.dir/flags.make
 CMakeFiles/testing_functions.dir/CFunction_unittest.cc.o: ../CFunction_unittest.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/iakwon/Desktop/gTEST_Drill/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/testing_functions.dir/CFunction_unittest.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testing_functions.dir/CFunction_unittest.cc.o -c /mnt/c/Users/iakwon/Desktop/gTEST_Drill/CFunction_unittest.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/iakwon/Desktop/InProgress/Git_SelfDevelopment/GoogleTest/gTest First apply/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/testing_functions.dir/CFunction_unittest.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testing_functions.dir/CFunction_unittest.cc.o -c "/mnt/c/Users/iakwon/Desktop/InProgress/Git_SelfDevelopment/GoogleTest/gTest First apply/CFunction_unittest.cc"
 
 CMakeFiles/testing_functions.dir/CFunction_unittest.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testing_functions.dir/CFunction_unittest.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/iakwon/Desktop/gTEST_Drill/CFunction_unittest.cc > CMakeFiles/testing_functions.dir/CFunction_unittest.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/iakwon/Desktop/InProgress/Git_SelfDevelopment/GoogleTest/gTest First apply/CFunction_unittest.cc" > CMakeFiles/testing_functions.dir/CFunction_unittest.cc.i
 
 CMakeFiles/testing_functions.dir/CFunction_unittest.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testing_functions.dir/CFunction_unittest.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/iakwon/Desktop/gTEST_Drill/CFunction_unittest.cc -o CMakeFiles/testing_functions.dir/CFunction_unittest.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/iakwon/Desktop/InProgress/Git_SelfDevelopment/GoogleTest/gTest First apply/CFunction_unittest.cc" -o CMakeFiles/testing_functions.dir/CFunction_unittest.cc.s
 
 CMakeFiles/testing_functions.dir/CFunctions.cpp.o: CMakeFiles/testing_functions.dir/flags.make
 CMakeFiles/testing_functions.dir/CFunctions.cpp.o: ../CFunctions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/iakwon/Desktop/gTEST_Drill/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/testing_functions.dir/CFunctions.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testing_functions.dir/CFunctions.cpp.o -c /mnt/c/Users/iakwon/Desktop/gTEST_Drill/CFunctions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/iakwon/Desktop/InProgress/Git_SelfDevelopment/GoogleTest/gTest First apply/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/testing_functions.dir/CFunctions.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testing_functions.dir/CFunctions.cpp.o -c "/mnt/c/Users/iakwon/Desktop/InProgress/Git_SelfDevelopment/GoogleTest/gTest First apply/CFunctions.cpp"
 
 CMakeFiles/testing_functions.dir/CFunctions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testing_functions.dir/CFunctions.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/iakwon/Desktop/gTEST_Drill/CFunctions.cpp > CMakeFiles/testing_functions.dir/CFunctions.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/iakwon/Desktop/InProgress/Git_SelfDevelopment/GoogleTest/gTest First apply/CFunctions.cpp" > CMakeFiles/testing_functions.dir/CFunctions.cpp.i
 
 CMakeFiles/testing_functions.dir/CFunctions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testing_functions.dir/CFunctions.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/iakwon/Desktop/gTEST_Drill/CFunctions.cpp -o CMakeFiles/testing_functions.dir/CFunctions.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/iakwon/Desktop/InProgress/Git_SelfDevelopment/GoogleTest/gTest First apply/CFunctions.cpp" -o CMakeFiles/testing_functions.dir/CFunctions.cpp.s
 
 # Object files for target testing_functions
 testing_functions_OBJECTS = \
@@ -97,9 +97,9 @@ testing_functions: CMakeFiles/testing_functions.dir/build.make
 testing_functions: lib/libgtest_main.a
 testing_functions: lib/libgtest.a
 testing_functions: CMakeFiles/testing_functions.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/iakwon/Desktop/gTEST_Drill/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable testing_functions"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/c/Users/iakwon/Desktop/InProgress/Git_SelfDevelopment/GoogleTest/gTest First apply/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable testing_functions"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/testing_functions.dir/link.txt --verbose=$(VERBOSE)
-	/usr/bin/cmake -D TEST_TARGET=testing_functions -D TEST_EXECUTABLE=/mnt/c/Users/iakwon/Desktop/gTEST_Drill/build/testing_functions -D TEST_EXECUTOR= -D TEST_WORKING_DIR=/mnt/c/Users/iakwon/Desktop/gTEST_Drill/build -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=testing_functions_TESTS -D CTEST_FILE=/mnt/c/Users/iakwon/Desktop/gTEST_Drill/build/testing_functions[1]_tests.cmake -D TEST_DISCOVERY_TIMEOUT=5 -P /usr/share/cmake-3.16/Modules/GoogleTestAddTests.cmake
+	/usr/bin/cmake -D TEST_TARGET=testing_functions -D "TEST_EXECUTABLE=/mnt/c/Users/iakwon/Desktop/InProgress/Git_SelfDevelopment/GoogleTest/gTest First apply/build/testing_functions" -D TEST_EXECUTOR= -D "TEST_WORKING_DIR=/mnt/c/Users/iakwon/Desktop/InProgress/Git_SelfDevelopment/GoogleTest/gTest First apply/build" -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=testing_functions_TESTS -D "CTEST_FILE=/mnt/c/Users/iakwon/Desktop/InProgress/Git_SelfDevelopment/GoogleTest/gTest First apply/build/testing_functions[1]_tests.cmake" -D TEST_DISCOVERY_TIMEOUT=5 -P /usr/share/cmake-3.16/Modules/GoogleTestAddTests.cmake
 
 # Rule to build all files generated by this target.
 CMakeFiles/testing_functions.dir/build: testing_functions
@@ -111,6 +111,6 @@ CMakeFiles/testing_functions.dir/clean:
 .PHONY : CMakeFiles/testing_functions.dir/clean
 
 CMakeFiles/testing_functions.dir/depend:
-	cd /mnt/c/Users/iakwon/Desktop/gTEST_Drill/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/iakwon/Desktop/gTEST_Drill /mnt/c/Users/iakwon/Desktop/gTEST_Drill /mnt/c/Users/iakwon/Desktop/gTEST_Drill/build /mnt/c/Users/iakwon/Desktop/gTEST_Drill/build /mnt/c/Users/iakwon/Desktop/gTEST_Drill/build/CMakeFiles/testing_functions.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/mnt/c/Users/iakwon/Desktop/InProgress/Git_SelfDevelopment/GoogleTest/gTest First apply/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/mnt/c/Users/iakwon/Desktop/InProgress/Git_SelfDevelopment/GoogleTest/gTest First apply" "/mnt/c/Users/iakwon/Desktop/InProgress/Git_SelfDevelopment/GoogleTest/gTest First apply" "/mnt/c/Users/iakwon/Desktop/InProgress/Git_SelfDevelopment/GoogleTest/gTest First apply/build" "/mnt/c/Users/iakwon/Desktop/InProgress/Git_SelfDevelopment/GoogleTest/gTest First apply/build" "/mnt/c/Users/iakwon/Desktop/InProgress/Git_SelfDevelopment/GoogleTest/gTest First apply/build/CMakeFiles/testing_functions.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/testing_functions.dir/depend
 

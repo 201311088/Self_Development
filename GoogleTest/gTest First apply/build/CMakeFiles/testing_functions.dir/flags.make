@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -isystem /mnt/c/Users/iakwon/Desktop/gTEST_Drill/build/_deps/googletest-src/googletest/include -isystem /mnt/c/Users/iakwon/Desktop/gTEST_Drill/build/_deps/googletest-src/googletest 
+CXX_INCLUDES = -isystem "/mnt/c/Users/iakwon/Desktop/InProgress/Git_SelfDevelopment/GoogleTest/gTest First apply/build/_deps/googletest-src/googletest/include" -isystem "/mnt/c/Users/iakwon/Desktop/InProgress/Git_SelfDevelopment/GoogleTest/gTest First apply/build/_deps/googletest-src/googletest" 
 
