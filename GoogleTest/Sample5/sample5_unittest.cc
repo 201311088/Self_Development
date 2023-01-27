@@ -20,7 +20,7 @@ class QuickTest : public testing::Test {
   void TearDown() override 
   {
     // Gets the time when the test finishes
-    const clock_t end_time = clock();;
+    const clock_t end_time = clock();
     std::cout<< "END TIME >>>>>> "<< end_time << std::endl;
     std::cout<< "TEST RUNNING TIME  :  "<< (end_time - start_time_) << " MILLISECONDS_" << std::endl;
     // Asserts that the test took no more than ~5 seconds.  Did you

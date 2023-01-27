@@ -29,7 +29,10 @@ int CFunctions::Insert(int value) {
 // fuxxcking linux
 void CFunctions::Delete(int index) 
 {
-    m_nArr[index] = -1;
+    if( 0>index || STATIC_MAX<=index )
+        return;
+    else
+        m_nArr[index] = -1;
 }
 
 void CFunctions::Update(int index, int value) {
